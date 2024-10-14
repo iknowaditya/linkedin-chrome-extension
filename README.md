@@ -6,6 +6,7 @@ This project is a Chrome extension designed to assist users in generating replie
 
 ## Demo
 
+https://github.com/user-attachments/assets/70465201-9a61-4b37-a37b-485a6d629931
 
 
 ## Features
