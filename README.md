@@ -27,22 +27,32 @@ To set up the project locally, follow these steps:
    git clone https://github.com/your-username/linkedin-chrome-extension.git
    ```
 3. Navigate to the project directory:
+    ```bash
    cd linkedin-chrome-extension
-4. Install the necessary dependencies using npm:
+    ```
+5. Install the necessary dependencies using npm:
+ ```bash
    npm install
-5. To start the development server, run:
+```
+7. To start the development server, run:
+ ```bash
    npm run dev
-6. To create a production build of the extension, run:
+```
+9. To create a production build of the extension, run:
+ ```bash
    npm run build
-7. After building the project, open Chrome and navigate to chrome://extensions.
+ ```
+11. After building the project, open Chrome and navigate to   
+```bash
+chrome://extensions.
+```
+12. Enable Developer mode by toggling the switch in the top right corner.
 
-8. Enable Developer mode by toggling the switch in the top right corner.
+13. Click on the Load unpacked button.
 
-9. Click on the Load unpacked button.
+14. In the file dialog, select the output/chrome-mv3 directory (or the directory where your build files are located). This will load your extension into Chrome.
 
-10. In the file dialog, select the output/chrome-mv3 directory (or the directory where your build files are located). This will load your extension into Chrome.
-
-11. Once loaded, you should see the extension icon in the Chrome toolbar. You can click it to use the extension on LinkedIn.
+15. Once loaded, you should see the extension icon in the Chrome toolbar. You can click it to use the extension on LinkedIn.
 
 ### License
 
